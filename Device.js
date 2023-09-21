@@ -158,7 +158,7 @@ export class Device {
 
 	render(camera, meshes) {
 		const viewMatrix = mat4.lookAt(mat4.create(), camera.position, camera.target, vec3.fromValues(0,1,0))
-		const projectionMatrix = mat4.perspectiveNO(mat4.create(), 0.8, this.workingWidth / this.workingHeight, 0.001, 10.0)
+		const projectionMatrix = mat4.perspectiveNO(mat4.create(), 0.8, this.workingWidth / this.workingHeight, 0.001, 1000.0)
 
 		for (let index = 0; index < meshes.length; index++) {
 			const cMesh = meshes[index];
