@@ -33,8 +33,8 @@ async function init() {
 function drawingLoop() {
     device.clear();
     for (let i = 0; i < meshes.length; i++) {
-        meshes[i].rotation[0] += 0.1;
-        meshes[i].rotation[1] += 0.1;
+        meshes[i].rotation[0] += 0.5;
+        meshes[i].rotation[1] += 0.5;
     }
 
     device.render(mera, meshes);

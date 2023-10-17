@@ -50,7 +50,6 @@ export class OBJParser {
                     break;
             }
         }
-        console.log(result)
         return result
     }
 
