@@ -38,6 +38,6 @@ This project has been an incredible learning experience! Here are some of the ke
 - Optimize performance for larger models.
 - Experiment with real-time shadows and reflections.
 
-Feel free to explore the code and contribute if you'd like! This project is a stepping stone for me to dive deeper into the world of computer graphics. 🚀
+Feel free to explore the code and contribute if you'd like! This project is a stepping stone for me to dive deeper into the world of computer graphics.
 
 ![Example Rendering](./images/image.png)
