@@ -1,14 +1,19 @@
 {
-  "name": "softjs",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "3djs",
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^24.9.1"
   },
-  "keywords": [],
-  "author": "",
+  "peerDependencies": {
+    "typescript": "^5.8.3"
+  },
   "type": "module",
-  "license": "ISC",
-  "types": "module",
-  "description": ""
+  "scripts": {
+    "build": "bun build index.ts --outfile=index.js --minify",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "vitest": "^4.0.4"
+  }
 }
